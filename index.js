@@ -141,3 +141,22 @@ const addIntern = () => {
     })
 };
 
+const generateHTML = () =>{
+    return readFileAsync('./src/main.html', 'utf8')
+    .then(res => {
+        console.log(res)
+        return res.replace("{employeeCards}", employeeArray.map((employee) => {
+        return employee.generateCard()
+    }).join(""))
+  });
+}
+
+const init = () => {
+    addEmployee()
+      .then(() => generateHTML()) 
+      .then((content) => writeFileAsync('./dist/my-team-profile.html', content))
+      .then(() => console.log('Successfully wrote HTML file'))
+      .catch((err) => console.error(err));
+};
+
+init();
