@@ -144,8 +144,8 @@ const addIntern = () => {
 const generateHTML = () =>{
     return readFileAsync('./src/main.html', 'utf8')
     .then(res => {
-        console.log(res)
         return res.replace("{employeeCards}", employeeArray.map((employee) => {
+            //console.log(employee.generateCard());
         return employee.generateCard()
     }).join(""))
   });
@@ -154,7 +154,10 @@ const generateHTML = () =>{
 const init = () => {
     addEmployee()
       .then(() => generateHTML()) 
-      .then((content) => writeFileAsync('./dist/my-team-profile.html', content))
+      
+      .then((res) => {
+          //console.log({res})
+          writeFileAsync('./dist/my-team-profile.html', res)})
       .then(() => console.log('Successfully wrote HTML file'))
       .catch((err) => console.error(err));
 };
