@@ -5,7 +5,7 @@
 
 ## Description
 This repo contains a node.js CLI utilizing inquirer to create a team chart in any organization.
-![Screenshot of the Team Profile Generator Application](.\assets\team-profile-generator-example.png)
+![Screenshot of the Team Profile Generator Application](./assets/team-profile-generator-example.png)
 
 ## Table of Contents
 - [Description](#description)
