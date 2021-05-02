@@ -1,7 +1,7 @@
 
-#Team Profile Generator
+# Team Profile Generator
 
-![license-badge](https://img.shields.io/badge/license-MIT License-yellow)
+![license-badge](https://img.shields.io/badge/license-MIT-yellow)
 
 ## Description
 This repo contains a node.js CLI utilizing inquirer to create a team chart in any organization.
@@ -33,7 +33,7 @@ This repo contains a node.js CLI utilizing inquirer to create a team chart in an
 	```
 2. Select the role and answer the questions as prompted
 	Please click on thumbnail to view video. </br>
-	[![Team Profile Generator Tutorial](http://img.youtube.com/vi/ceroChotyZE/0.jpg)](https://www.youtube.com/watch?v=ceroChotyZE "Team Profile Generator Full Demo-Click to Watch!")
+	[![Team Profile Generator Tutorial](https://img.youtube.com/vi/ceroChotyZE/0.jpg)](https://www.youtube.com/watch?v=ceroChotyZE)
 
 3. Once the task is finished, a success or failure message will display on the terminal.
 
@@ -43,7 +43,7 @@ This repo contains a node.js CLI utilizing inquirer to create a team chart in an
 
 ## Contribution
 #### Contributors
-melissa-tan
+[melissa-tan](https://github.com/melissa-tan)
 
 
 
@@ -52,11 +52,11 @@ melissa-tan
 1. Run jest test
 	
 	```
-npm run test
+	npm run test
 	```
 
 ## Questions
 If you have any questions or see any issues, please feel free to reach out!
 
-Find me on github! [melissa-tan](https://github.com/melissa-tan)
+Find me on github! [melissa-tan](https://github.com/melissa-tan) <br>
 Email me at: melissatan9683@gmail.com
