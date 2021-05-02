@@ -5,6 +5,7 @@
 
 ## Description
 This repo contains a node.js CLI utilizing inquirer to create a team chart in any organization.
+![Screenshot of the Team Profile Generator Application](.\assets\team-profile-generator-example.png)
 
 ## Table of Contents
 - [Description](#description)
@@ -31,9 +32,10 @@ This repo contains a node.js CLI utilizing inquirer to create a team chart in an
 	``` 
 	node index.js
 	```
-2. Select the role and answer the questions as prompted
+2. Select the role and answer the questions as prompted <br>
 	Please click on thumbnail to view video. </br>
-	[![Team Profile Generator Tutorial](https://img.youtube.com/vi/ceroChotyZE/0.jpg)](https://www.youtube.com/watch?v=ceroChotyZE)
+	[![Team Profile Generator Tutorial](http://img.youtube.com/vi/ceroChotyZE/0.jpg)](http://www.youtube.com/watch?v=ceroChotyZE)
+	
 
 3. Once the task is finished, a success or failure message will display on the terminal.
 
